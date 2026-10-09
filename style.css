@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.navbar {
+    height: 82px;
+    display: flex;
+    align-items: center;
+    padding: 0 45px;
+    gap: 45px;
+    background-color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: -2px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex: 1;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+.nav-right a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.nav-links span {
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.search-icon {
+    font-size: 30px;
+    color: #333;
+    transform: rotate(-20deg);
+}
+
+.login {
+    white-space: nowrap;
+}
+
+.signup {
+    border: none;
+    background-color: #14a800;
+    color: white;
+    padding: 12px 23px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.green-banner {
+    margin: 28px 7%;
+    height: 64px;
+    border-radius: 35px;
+    background: linear-gradient(
+        90deg,
+        #f4f5d9,
+        #e7f2d9,
+        #d9f0dc
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 28px;
+}
+
+.green-banner p {
+    font-size: 16px;
+    color: #333;
+}
+
+.green-banner a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.green-banner a span {
+    font-size: 22px;
+    margin-left: 5px;
+}
+.hero-section {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    padding: ;
+}
